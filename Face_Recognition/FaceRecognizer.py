@@ -20,8 +20,8 @@ def FaceRecognizer(image_validation_path, image_db_path):
     image_to_validate = dlib.load_rgb_image(image_validation_path)
     image_from_db = dlib.load_rgb_image(image_db_path)
 
-    image_valid_segment = detector(image_to_validate, 2)
-    image_data_segment = detector(image_from_db, 2)
+    image_valid_segment = detector(image_to_validate, 1)
+    image_data_segment = detector(image_from_db, 1)
     print(len(image_valid_segment))
     print(len(image_data_segment))
     if(len(image_data_segment) == 0 or len(image_valid_segment) == 0):
@@ -39,7 +39,7 @@ def FaceRecognizer(image_validation_path, image_db_path):
     image_array_db = np.array(image_data)
     def findEucldianDistance():
         eucldianDistance = image_array_validate - image_array_db
-        eucldianDistance = np.sum(np.multiply(eucldianDistance,eucldianDistance))
+        eucldianDistance = np.sum(np.multiply(eucldianDistance , eucldianDistance))
         eucldianDistance = np.sqrt(eucldianDistance)
         return eucldianDistance
     distance = findEucldianDistance()
