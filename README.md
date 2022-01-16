@@ -8,22 +8,28 @@ Three datasets are used consisting of faces of celebrity images
 - Normal dataset 
 #### Sample
 ![normalData](https://github.com/hazem-kamel/image_decryption_gan/blob/main/dataset.png)
-#### Sample
 - L Dataset (Semi encrypted)
+#### Sample
 ![LData](https://github.com/hazem-kamel/image_decryption_gan/blob/main/dataset_r.png)
-#### Sample
 - R dataset (Highly encrypted)
-![RData](https://github.com/hazem-kamel/image_decryption_gan/blob/main/dataset_l.png)
 #### Sample
+![RData](https://github.com/hazem-kamel/image_decryption_gan/blob/main/dataset_l.png)
 # Models
 Two models were created , trained and tested 
 ##  Pix2Pix GAN Model 
 - Semi Encrypted Dataset
+#### Sample
+![LFinal](https://github.com/hazem-kamel/image_decryption_gan/blob/main/l_f.png)
 - Highly Encrypted Dataset
+#### Sample
+![RFinal](https://github.com/hazem-kamel/image_decryption_gan/blob/main/r_f.png)
  ## CycleGAN Model
 - Semi Encrypted Dataset
+#### Sample
+![RResult](https://github.com/hazem-kamel/image_decryption_gan/blob/main/r_results.png)
 - Highly Encrypted Dataset
-
+#### Sample
+![LResult](https://github.com/hazem-kamel/image_decryption_gan/blob/main/l_results.png)
 # Face Recogonition
 Face recognition system was created with the help of Deepface for evaulating the results of the model by firstly testing the face recognition system with the datasets without decryption then testing the results of the first model and finally with the second model , results of similarities are plotted and compared 
 
