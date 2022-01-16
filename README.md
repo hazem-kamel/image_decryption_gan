@@ -7,9 +7,13 @@ Decryption of images encrypted for facial recognition systems, AI GANS are used 
 Three datasets are used consisting of faces of celebrity images
 - Normal dataset 
 #### Sample
+![normalData](https://github.com/hazem-kamel/image_decryption_gan/blob/main/dataset.png)
+#### Sample
 - L Dataset (Semi encrypted)
+![LData](https://github.com/hazem-kamel/image_decryption_gan/blob/main/dataset_r.png)
 #### Sample
 - R dataset (Highly encrypted)
+![RData](https://github.com/hazem-kamel/image_decryption_gan/blob/main/dataset_l.png)
 #### Sample
 # Models
 Two models were created , trained and tested 
@@ -28,9 +32,9 @@ Face recognition system was created with the help of Deepface for evaulating the
 ## Normal Results
 ![normalResult](https://github.com/hazem-kamel/image_decryption_gan/blob/main/ormal.png)
 ## Pix2Pix Results
-
-
+![pix2pixResult](https://github.com/hazem-kamel/image_decryption_gan/blob/main/Screenshot%202022-01-16%20095512.png)
 ## CycleGan Results
+![cycleResult](https://github.com/hazem-kamel/image_decryption_gan/blob/main/cyclef.png)
 
 
 
