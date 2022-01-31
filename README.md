@@ -36,11 +36,13 @@ Face recognition system was created with the help of Deepface for evaulating the
 # Final Results of the four models
 - Datasets before and after using the models are fed into a Face Recognition system to get results of distances and see how the GAN models improved the faceial recognition recognising persons from images which were intially decrypted 
 ## Normal Results
-![normalResult](https://github.com/hazem-kamel/image_decryption_gan/blob/main/normal.png)
+![normalResult](https://github.com/hazem-kamel/image_decryption_gan/blob/main/Same.png)
 ## Pix2Pix Results
 ![pix2pixResult](https://github.com/hazem-kamel/image_decryption_gan/blob/main/Pix.png)
 ## CycleGan Results
-![cycleResult](https://github.com/hazem-kamel/image_decryption_gan/blob/main/cycle.png)
+![cycleResult](https://github.com/hazem-kamel/image_decryption_gan/blob/main/Cycle.png)
 
-
+## All Results
+![AllResult](https://github.com/hazem-kamel/image_decryption_gan/blob/main/Different.png)
+![AllResult](https://github.com/hazem-kamel/image_decryption_gan/blob/main/Same.png)
 
